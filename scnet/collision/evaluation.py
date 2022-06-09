@@ -10,8 +10,6 @@ import tensorflow_datasets as tfds
 
 tf.compat.v1.logging.set_verbosity(tf.compat.v1.logging.ERROR)
 
-from gloro.training.callbacks import LrScheduler
-from hashlib import blake2b
 from scriptify import scriptify
 from tensorflow.data import Dataset
 from tensorflow.keras.losses import SparseCategoricalCrossentropy

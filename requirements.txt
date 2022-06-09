@@ -1,0 +1,4 @@
+tensorflow>=2.3
+scriptify
+gloro
+tensorflow_datasets

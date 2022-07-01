@@ -2,14 +2,13 @@
 
 Library for training self-correcting neural networks that automatically revise their outputs to satisfy non-relational safety properties.
 
-This repository implements the method described in [this paper](https://arxiv.org/pdf/2107.11445.pdf). If you use this code, please use the following citation:
+This repository implements the method described in [this paper](https://arxiv.org/pdf/2107.11445.pdf) (appearing in FoMLAS 2022). If you use this code, please use the following citation:
 ```bibtex
-@MISC{leino21self-correcting,
+@INPROCEEDINGS{leino21self-correcting,
   title = {Self-Correcting Neural Networks for Safe Classification},
   author = {Klas Leino and Aymeric Fromherz and Ravi Mangal and Matt Fredrikson and Bryan Parno and Corina Păsăreanu},
-  eprint = {2107.11445},
-  archivePrefix = {arXiv},
-  year = {2021}
+  booktitle = {Workshop on Formal Methods for ML-Enabled Autonomous Systems (FoMLAS)},
+  year = {2022}
 }
 ```
 

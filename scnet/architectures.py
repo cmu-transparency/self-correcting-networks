@@ -1,6 +1,6 @@
 import tensorflow.keras.backend as K
 
-from gloro.layers import InvertibleDownSampling
+from gloro.layers import InvertibleDownsampling
 from gloro.layers import MinMax
 from gloro.layers import ResnetBlock
 from tensorflow.keras.applications import ResNet50

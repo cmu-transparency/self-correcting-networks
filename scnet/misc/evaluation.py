@@ -91,7 +91,7 @@ if __name__ == '__main__':
         learning_rate=1e-3,
         learning_rate_schedule='fixed',
         tuning_lr=1e-5,
-        tuning_lr_schdule='linear_dropoff',
+        tuning_lr_schdule='[1.]-[0.]',
         no_fine_tuning=False,
         gpu=0,
     ):
